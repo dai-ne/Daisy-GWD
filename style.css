@@ -1,0 +1,132 @@
+
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header {
+    background-image: url(BG.jpeg);
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    justify-content: space-between;
+}
+
+h1.floatTag {
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 0px 0px 0px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    padding-right: 0px;
+    list-style-type: none;  
+   text-align: right;
+   justify-content: space-around;
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    text-align: right;
+    padding: 15px ;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: black;
+}
+
+li:hover{
+transform: scale(1.1);
+}
+
+
+h3 {
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    padding: 2px;
+    background-color: #649FB5;
+}
+.container-2{
+    padding: 10px;
+    border-top: 2px solid white;
+    align-items: flex-start;
+    color:white; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.typo-group{
+    padding: 20px;
+    margin: 3px;
+    width: 300px;
+    height: 400px;
+    overflow: scroll;
+    border: 0.2px solid white;
+    background-color: black;
+
+}
+
+.typo-group:hover {
+    transform: scale(1.12);
+}
+
+.carp-group{
+    padding:40px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    overflow: scroll;
+    border: 0.2px solid white;
+    background-color: black;
+
+
+}
+.carp-group:hover {
+    transform: scale(1.12);
+}
+
+img {
+    width: 300px;
+    height:auto;
+    
+
+}
+
+.caption {
+    text-align: center;
+    
+}
+
+.container-3{ /* */
+    padding: 10px;
+    border: 2px solid white;
+    align-items: flex-start;
+    color:white; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+
